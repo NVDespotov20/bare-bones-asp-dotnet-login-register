@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/bare-bones-web-app.props" />
+</Project>

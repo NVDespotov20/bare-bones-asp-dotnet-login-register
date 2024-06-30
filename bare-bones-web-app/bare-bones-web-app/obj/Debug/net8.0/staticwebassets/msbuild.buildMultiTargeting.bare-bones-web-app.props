@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/bare-bones-web-app.props" />
+</Project>

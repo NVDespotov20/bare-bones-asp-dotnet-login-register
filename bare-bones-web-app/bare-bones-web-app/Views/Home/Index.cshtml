@@ -1,0 +1,6 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@inject Microsoft.AspNetCore.Identity.UserManager<ApplicationUser> userManager
+<h1>Welcome to MvcIdentityApp</h1>
+<a href="/Account/Login">Login</a> | <a href="/Account/Register">Register</a>
