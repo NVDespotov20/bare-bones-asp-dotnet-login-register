@@ -18,6 +18,7 @@ public class AccountController : Controller
     [HttpGet]
     public IActionResult Register() => View();
 
+    // HttpPost means that this action will be called when a form is submited
     [HttpPost]
     public async Task<IActionResult> Register(RegisterViewModel model)
     {
